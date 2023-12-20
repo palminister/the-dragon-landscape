@@ -190,3 +190,5 @@ export const Dragon = (props) => {
     </Suspense>
   );
 };
+
+useGLTF.preload('/dragon.glb');
